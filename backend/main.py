@@ -5,6 +5,8 @@ from typing import List, Optional
 import uvicorn
 import logging
 import os
+from dotenv import load_dotenv
+load_dotenv()
 
 # RAG imports - EXACT MATCH TO COLAB
 from langchain.prompts import PromptTemplate
