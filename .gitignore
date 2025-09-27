@@ -1,0 +1,49 @@
+# --- Node / React (Vite + Tailwind) ---
+node_modules/
+dist/
+build/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.vscode/
+.DS_Store
+
+# --- FastAPI / Python ---
+venv/
+.env
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.egg-info/
+*.so
+
+# --- LangChain / Chroma DB ---
+
+backend/chroma_db/
+*.bin
+*.hnsw
+index/
+
+# --- Testing / Coverage ---
+.coverage
+.tox/
+pytest_cache/
+htmlcov/
+.mypy_cache/
+
+# --- OS / Editor ---
+Thumbs.db
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+*.temp
+
+# --- firebase credentials ---
+backend/firebase-credentials.json

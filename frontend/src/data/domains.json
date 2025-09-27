@@ -1,0 +1,598 @@
+{
+  "domains": [
+    {
+      "id": "newsmedia",
+      "name": "News & Media",
+      "description": "Articles, summaries from major news outlets",
+      "category": "Media"
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "description": "IPL stats, match data, cricket analytics",
+      "category": "Entertainment"
+    },
+    {
+      "id": "elections",
+      "name": "Elections",
+      "description": "Voter statistics, election results, and constituency data from ECI",
+      "category": "Government"
+    },
+    {
+      "id": "agriculture",
+      "name": "Agriculture",
+      "description": "Crop yield data, agricultural prices, and farming statistics",
+      "category": "Rural"
+    },
+    {
+      "id": "healthcare",
+      "name": "Healthcare",
+      "description": "Hospital statistics, disease data, and public health information",
+      "category": "Social"
+    },
+    {
+      "id": "education",
+      "name": "Education",
+      "description": "Literacy rates, school statistics, educational infrastructure data",
+      "category": "Social"
+    },
+    {
+      "id": "traffic",
+      "name": "Traffic",
+      "description": "Road usage patterns, toll collection, traffic management data",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "economy",
+      "name": "Economy",
+      "description": "GDP statistics, inflation rates, macroeconomic indicators",
+      "category": "Economic"
+    },
+    {
+      "id": "finance",
+      "name": "Finance",
+      "description": "UPI transactions, banking data, financial services statistics",
+      "category": "Economic"
+    },
+    {
+      "id": "languagenlp",
+      "name": "Language/NLP",
+      "description": "Text corpora, translations, linguistic datasets for Indian languages",
+      "category": "Technology"
+    },
+    {
+      "id": "weather",
+      "name": "Weather",
+      "description": "Rainfall data, temperature records, meteorological information",
+      "category": "Environment"
+    },
+    {
+      "id": "census",
+      "name": "Census",
+      "description": "Population demographics, household surveys, demographic statistics",
+      "category": "Government"
+    },
+    {
+      "id": "gisgeospatial",
+      "name": "GIS/Geospatial",
+      "description": "Village maps, city boundaries, spatial geographic data",
+      "category": "Technology"
+    },
+    {
+      "id": "crimelaw",
+      "name": "Crime & Law",
+      "description": "FIR data, crime statistics, law enforcement records",
+      "category": "Government"
+    },
+    {
+      "id": "covid19",
+      "name": "COVID-19",
+      "description": "Pandemic cases, vaccination statistics, health emergency data",
+      "category": "Social"
+    },
+    {
+      "id": "transport",
+      "name": "Transport",
+      "description": "Railway statistics, metro data, public transportation systems",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "environment",
+      "name": "Environment",
+      "description": "Pollution levels, air quality, water quality monitoring data",
+      "category": "Environment"
+    },
+    {
+      "id": "cultureheritage",
+      "name": "Culture & Heritage",
+      "description": "Archaeological sites, monuments, cultural preservation data",
+      "category": "Cultural"
+    },
+    {
+      "id": "tourism",
+      "name": "Tourism",
+      "description": "Tourist arrivals, hotel occupancy, tourism industry statistics",
+      "category": "Economic"
+    },
+    {
+      "id": "waterresources",
+      "name": "Water Resources",
+      "description": "River flow data, reservoir levels, water management systems",
+      "category": "Environment"
+    },
+    {
+      "id": "electricity",
+      "name": "Electricity",
+      "description": "Power consumption, grid access, electricity distribution data",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "jobsskills",
+      "name": "Jobs & Skills",
+      "description": "Employment statistics, wage data, skill development programs",
+      "category": "Economic"
+    },
+    {
+      "id": "politics",
+      "name": "Politics",
+      "description": "Political party information, candidate details, electoral data",
+      "category": "Government"
+    },
+    {
+      "id": "socialmedia",
+      "name": "Social Media",
+      "description": "Social platform analytics, digital engagement metrics",
+      "category": "Technology"
+    },
+    {
+      "id": "ecommerce",
+      "name": "E-commerce",
+      "description": "Product reviews, ratings, online marketplace analytics",
+      "category": "Economic"
+    },
+    {
+      "id": "banking",
+      "name": "Banking",
+      "description": "IFSC codes, branch information, banking infrastructure data",
+      "category": "Economic"
+    },
+    {
+      "id": "realestate",
+      "name": "Real Estate",
+      "description": "Property prices, rental rates, real estate market trends",
+      "category": "Economic"
+    },
+    {
+      "id": "energy",
+      "name": "Energy",
+      "description": "Solar power, renewable energy, power grid infrastructure",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "judiciary",
+      "name": "Judiciary",
+      "description": "Court cases, legal proceedings, judicial system data",
+      "category": "Government"
+    },
+    {
+      "id": "welfareschemes",
+      "name": "Welfare Schemes",
+      "description": "Government welfare programs, benefit distribution, social schemes",
+      "category": "Social"
+    },
+    {
+      "id": "foodnutrition",
+      "name": "Food & Nutrition",
+      "description": "Meal programs, malnutrition statistics, food security data",
+      "category": "Social"
+    },
+    {
+      "id": "startups",
+      "name": "Startups",
+      "description": "Startup registrations, funding data, entrepreneurship statistics",
+      "category": "Economic"
+    },
+    {
+      "id": "msmes",
+      "name": "MSMEs",
+      "description": "Small business statistics, micro enterprise data",
+      "category": "Economic"
+    },
+    {
+      "id": "industrialstats",
+      "name": "Industrial Stats",
+      "description": "Manufacturing data, export statistics, industrial production",
+      "category": "Economic"
+    },
+    {
+      "id": "animalhusbandry",
+      "name": "Animal Husbandry",
+      "description": "Livestock statistics, dairy production, animal welfare data",
+      "category": "Rural"
+    },
+    {
+      "id": "fisheries",
+      "name": "Fisheries",
+      "description": "Inland and marine catch data, fishing industry statistics",
+      "category": "Rural"
+    },
+    {
+      "id": "tribaldata",
+      "name": "Tribal Data",
+      "description": "Scheduled tribe demographics, tribal development indicators",
+      "category": "Social"
+    },
+    {
+      "id": "womenchildren",
+      "name": "Women & Children",
+      "description": "Gender statistics, child welfare, ICDS program data",
+      "category": "Social"
+    },
+    {
+      "id": "migration",
+      "name": "Migration",
+      "description": "Interstate migration patterns, population movement data",
+      "category": "Social"
+    },
+    {
+      "id": "housing",
+      "name": "Housing",
+      "description": "Urban housing statistics, PMAY scheme data",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "infrastructure",
+      "name": "Infrastructure",
+      "description": "Road networks, bridges, public infrastructure development",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "oilgas",
+      "name": "Oil & Gas",
+      "description": "Refinery statistics, petroleum consumption, energy data",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "telecom",
+      "name": "Telecom",
+      "description": "Mobile subscribers, internet penetration, telecom statistics",
+      "category": "Technology"
+    },
+    {
+      "id": "bankingfraud",
+      "name": "Banking Fraud",
+      "description": "ATM fraud, UPI fraud cases, financial crime statistics",
+      "category": "Government"
+    },
+    {
+      "id": "aviation",
+      "name": "Aviation",
+      "description": "Flight statistics, airport operations, air traffic data",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "maritime",
+      "name": "Maritime",
+      "description": "Port traffic statistics, shipping data, maritime operations",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "labourlaws",
+      "name": "Labour Laws",
+      "description": "Wage statistics, labor violations, employment regulations",
+      "category": "Government"
+    },
+    {
+      "id": "forestwildlife",
+      "name": "Forest & Wildlife",
+      "description": "Forest cover data, biodiversity statistics, conservation efforts",
+      "category": "Environment"
+    },
+    {
+      "id": "disastermanagement",
+      "name": "Disaster Management",
+      "description": "Natural disaster data, emergency response statistics",
+      "category": "Government"
+    },
+    {
+      "id": "sciencetech",
+      "name": "Science & Tech",
+      "description": "Research data, patents, ISRO missions, scientific achievements",
+      "category": "Technology"
+    },
+    {
+      "id": "spacemissions",
+      "name": "Space Missions",
+      "description": "Satellite launches, space research, ISRO mission data",
+      "category": "Technology"
+    },
+    {
+      "id": "cybersecurity",
+      "name": "Cybersecurity",
+      "description": "Security incidents, cyber threats, digital safety statistics",
+      "category": "Technology"
+    },
+    {
+      "id": "urbandevelopment",
+      "name": "Urban Development",
+      "description": "Smart cities initiatives, urban planning, city development",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "publictransport",
+      "name": "Public Transport",
+      "description": "Bus routes, public transportation systems, ridership data",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "digitalindia",
+      "name": "Digital India",
+      "description": "Digital services adoption, e-governance initiatives",
+      "category": "Technology"
+    },
+    {
+      "id": "publicgrievances",
+      "name": "Public Grievances",
+      "description": "Citizen complaints, grievance resolution statistics",
+      "category": "Government"
+    },
+    {
+      "id": "rti",
+      "name": "RTI",
+      "description": "Right to Information applications, transparency data",
+      "category": "Government"
+    },
+    {
+      "id": "digitalpayments",
+      "name": "Digital Payments",
+      "description": "BHIM transactions, digital payment adoption statistics",
+      "category": "Technology"
+    },
+    {
+      "id": "ruraldevelopment",
+      "name": "Rural Development",
+      "description": "MGNREGA employment, rural infrastructure, village development",
+      "category": "Rural"
+    },
+    {
+      "id": "incometax",
+      "name": "Income Tax",
+      "description": "Taxpayer statistics, tax collection, income distribution data",
+      "category": "Economic"
+    },
+    {
+      "id": "judicialreforms",
+      "name": "Judicial Reforms",
+      "description": "Court digitization, case pendency, judicial efficiency data",
+      "category": "Government"
+    },
+    {
+      "id": "pmgatishakti",
+      "name": "PM Gati Shakti",
+      "description": "Infrastructure planning, multimodal connectivity projects",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "cooperatives",
+      "name": "Cooperatives",
+      "description": "Cooperative societies, NABARD statistics, rural finance",
+      "category": "Rural"
+    },
+    {
+      "id": "fertilizers",
+      "name": "Fertilizers",
+      "description": "Fertilizer usage, supply chain, agricultural input statistics",
+      "category": "Rural"
+    },
+    {
+      "id": "transportaccidents",
+      "name": "Transport Accidents",
+      "description": "Road accident data, railway accidents, transport safety",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "publicdistribution",
+      "name": "Public Distribution",
+      "description": "PDS system, ration distribution, food subsidy statistics",
+      "category": "Social"
+    },
+    {
+      "id": "statebudgets",
+      "name": "State Budgets",
+      "description": "State government expenditure, budget allocations, fiscal data",
+      "category": "Economic"
+    },
+    {
+      "id": "academicresearch",
+      "name": "Academic Research",
+      "description": "University research, academic journals, scholarly publications",
+      "category": "Social"
+    },
+    {
+      "id": "customsexcise",
+      "name": "Customs & Excise",
+      "description": "Import/export statistics, customs revenue, trade data",
+      "category": "Economic"
+    },
+    {
+      "id": "fairsfestivals",
+      "name": "Fairs & Festivals",
+      "description": "Cultural events, festival tourism, traditional celebrations",
+      "category": "Cultural"
+    },
+    {
+      "id": "dronedata",
+      "name": "Drone Data",
+      "description": "Drone permissions, unmanned aerial vehicle usage statistics",
+      "category": "Technology"
+    },
+    {
+      "id": "itservices",
+      "name": "IT Services",
+      "description": "Software industry statistics, IT employment, technology growth",
+      "category": "Technology"
+    },
+    {
+      "id": "climatechange",
+      "name": "Climate Change",
+      "description": "Carbon emissions, climate data, environmental impact statistics",
+      "category": "Environment"
+    },
+    {
+      "id": "animalshelters",
+      "name": "Animal Shelters",
+      "description": "Stray animal statistics, shelter facilities, animal welfare",
+      "category": "Social"
+    },
+    {
+      "id": "privateschools",
+      "name": "Private Schools",
+      "description": "CBSE/ICSE performance data, private education statistics",
+      "category": "Social"
+    },
+    {
+      "id": "mobileappsusage",
+      "name": "Mobile Apps Usage",
+      "description": "App downloads, mobile application analytics, digital adoption",
+      "category": "Technology"
+    },
+    {
+      "id": "miningminerals",
+      "name": "Mining & Minerals",
+      "description": "Coal production, mineral extraction, mining industry data",
+      "category": "Economic"
+    },
+    {
+      "id": "wasteland",
+      "name": "Wasteland",
+      "description": "Land rehabilitation, wasteland development, soil conservation",
+      "category": "Environment"
+    },
+    {
+      "id": "startupincubators",
+      "name": "Startup Incubators",
+      "description": "Incubation programs, startup funding, entrepreneurship support",
+      "category": "Economic"
+    },
+    {
+      "id": "cybercrime",
+      "name": "Cybercrime",
+      "description": "Online crime statistics, cyber complaint data, digital security",
+      "category": "Government"
+    },
+    {
+      "id": "ngodata",
+      "name": "NGO Data",
+      "description": "Non-profit registrations, NGO funding, civil society statistics",
+      "category": "Social"
+    },
+    {
+      "id": "patentdata",
+      "name": "Patent Data",
+      "description": "Patent applications, intellectual property statistics, innovation data",
+      "category": "Technology"
+    },
+    {
+      "id": "highereducation",
+      "name": "Higher Education",
+      "description": "University rankings, higher education enrollment, academic performance",
+      "category": "Social"
+    },
+    {
+      "id": "animalcensus",
+      "name": "Animal Census",
+      "description": "Livestock population, cattle statistics, animal husbandry data",
+      "category": "Rural"
+    },
+    {
+      "id": "recycling",
+      "name": "Recycling",
+      "description": "Waste management, plastic recycling, e-waste statistics",
+      "category": "Environment"
+    },
+    {
+      "id": "postaldata",
+      "name": "Postal Data",
+      "description": "Post office locations, postal services, mail delivery statistics",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "handloomtextiles",
+      "name": "Handloom & Textiles",
+      "description": "Textile exports, handloom production, artisan statistics",
+      "category": "Economic"
+    },
+    {
+      "id": "elearning",
+      "name": "E-learning",
+      "description": "Digital education platforms, online course statistics, educational technology",
+      "category": "Technology"
+    },
+    {
+      "id": "statetransport",
+      "name": "State Transport",
+      "description": "State bus statistics, transport permits, regional transportation",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "riverlinking",
+      "name": "River Linking",
+      "description": "Inter-basin water transfer, irrigation projects, water management",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "datalocalization",
+      "name": "Data Localization",
+      "description": "Data governance, cloud infrastructure, digital sovereignty",
+      "category": "Technology"
+    },
+    {
+      "id": "medicalresearch",
+      "name": "Medical Research",
+      "description": "Clinical trials, medical research statistics, healthcare innovation",
+      "category": "Social"
+    },
+    {
+      "id": "vaccinationstats",
+      "name": "Vaccination Stats",
+      "description": "Immunization coverage, vaccine distribution, health program data",
+      "category": "Social"
+    },
+    {
+      "id": "trafficviolations",
+      "name": "Traffic Violations",
+      "description": "Traffic fines, violation statistics, road safety enforcement",
+      "category": "Government"
+    },
+    {
+      "id": "courtjudgements",
+      "name": "Court Judgements",
+      "description": "Legal decisions, court rulings, judicial precedents",
+      "category": "Government"
+    },
+    {
+      "id": "energyefficiency",
+      "name": "Energy Efficiency",
+      "description": "BEE ratings, energy conservation, efficiency standards",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "livelihoodprograms",
+      "name": "Livelihood Programs",
+      "description": "Rural livelihood schemes, self-help groups, poverty alleviation",
+      "category": "Rural"
+    },
+    {
+      "id": "airporttraffic",
+      "name": "Airport Traffic",
+      "description": "Passenger statistics, cargo movement, airport operations data",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "voterawareness",
+      "name": "Voter Awareness",
+      "description": "Electoral education, voter participation, democracy promotion",
+      "category": "Government"
+    }
+  ]
+}
